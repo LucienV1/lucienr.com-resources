@@ -19,7 +19,7 @@ start service
 git clone https://github.com/LucienV1/lucienr.com-resources
 cd lucienr.com-resources
 go build randomcss.go
-sudo mv randomcss /usr/bin/local/randomcss
+sudo mv randomcss /usr/local/bin/randomcss
 sudo mv lucienr.com.service /etc/systemd/system/lucienr.com.service
 sudo systemctl start lucienr.com.service
 ```
