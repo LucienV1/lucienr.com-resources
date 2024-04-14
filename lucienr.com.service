@@ -1,0 +1,10 @@
+[Unit]
+Description=random css for lucienr.com
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/randomcss -r /var/www/lucienr.com -p 3332
+
+[Install]
+WantedBy=multi-user.target
